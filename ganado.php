@@ -8,7 +8,7 @@
 <body>
     <div class="resultado">
         <h1>¡Enhorabuena! Has ganado :)</h1>
-        <a href="index.php" class="boton">Jugar de nuevo</a>
+        <a href="./index.php" class="boton">Jugar de nuevo</a>
     </div>
 </body>
 </html>
