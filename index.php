@@ -42,7 +42,6 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
     exit();
 } elseif ($_SESSION['vidas'] <= 0) {
     header("Location: perdido.php");
-    echo "Lo siento, has perdido :( La palabra era: " . $_SESSION['palabra'] . "<br>";
     exit();
 }
 ?>
